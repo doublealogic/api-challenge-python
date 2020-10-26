@@ -31,7 +31,7 @@ Next, I ran a linear regression on each relationship, only this time separating 
 
 After each pair of plots I explain what the linear regression is modeling such as any relationships I noticed and any other analysis I saw.
 
-For all of the scatter plots above, I save a CSV of all retrieved data and a PNG image for each scatter plot.
+For all of the scatter plots above, I save a CSV of all retrieved data and a PNG image for each scatter plot. These PNG images are all located in the `Output_Data` folder for WeatherPy.
 
 ### Part II - VacationPy
 
@@ -52,3 +52,5 @@ This script works with weather data to plan future vacations and uses jupyter-gm
 * Uses Google Places API to find the first hotel for each city located within 5000 meters of your coordinates.
 
 * Plots the hotels on top of the humidity heatmap with each pin containing the **Hotel Name**, **City**, and **Country**.
+
+Located within the `Output_Data` folder in VacationPy is a screenshot of the final map figure.
