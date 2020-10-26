@@ -37,9 +37,7 @@ For all of the scatter plots above, I save a CSV of all retrieved data and a PNG
 
 This script works with weather data to plan future vacations and uses jupyter-gmaps and the Google Places API.
 
-* Creates a heat map that displays the humidity for every city from the part I of the homework.
-
-  ![heatmap](Images/heatmap.png)
+* Creates a heat map that displays the humidity for every city from WeatherPy
 
 * Narrows down the DataFrame to find cities with the following weather conditions:
 
@@ -54,6 +52,3 @@ This script works with weather data to plan future vacations and uses jupyter-gm
 * Uses Google Places API to find the first hotel for each city located within 5000 meters of your coordinates.
 
 * Plots the hotels on top of the humidity heatmap with each pin containing the **Hotel Name**, **City**, and **Country**.
-
-  ![hotel map](Images/hotel_map.png)
-
